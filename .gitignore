@@ -1,0 +1,20 @@
+# Simulation and FPGA build outputs (./build.sh regenerates them)
+sim/
+build/
+
+# Autorouter intermediates and logs (pcb/make_board.sh regenerates them)
+pcb/route/
+pcb/gen/logs/
+pcb/gen/__pycache__/
+pcb/drc.rpt
+pcb/erc.rpt
+
+# KiCad local view state and backups
+*.kicad_prl
+*-backups/
+fp-info-cache
+\#auto_saved_files#
+
+# Raw renders and the 3D export (pcb/render_cinematic.sh, kicad-cli pcb export glb)
+pcb/renders/cinematic/raw/
+pcb/renders/*.glb
