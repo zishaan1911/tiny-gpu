@@ -1,0 +1,20 @@
+# iCE40UP5K-SG48 pin map for the Tiny GPU board. Generated from pcb/gen/design.py (FPGA_PINS):
+# the PCB is wired from the same table, so change pins there, not here.
+set_io clk_12m    35
+set_io uart_rx    6
+set_io uart_tx    9
+set_io led_n      11
+set_io vga_r[0]   25
+set_io vga_r[1]   26
+set_io vga_r[2]   27
+set_io vga_r[3]   28
+set_io vga_g[0]   31
+set_io vga_g[1]   37
+set_io vga_g[2]   38
+set_io vga_g[3]   42
+set_io vga_b[0]   43
+set_io vga_b[1]   44
+set_io vga_b[2]   45
+set_io vga_b[3]   46
+set_io vga_hs     47
+set_io vga_vs     48
